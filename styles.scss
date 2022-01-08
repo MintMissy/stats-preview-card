@@ -43,6 +43,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +133,7 @@ select {
   left: 0;
   right: 0;
   opacity: 0.6;
-  background-color: hsl(277, 85%, 32%);
+  background-color: hsl(277, 51%, 44%);
 }
 
 .card-banner img {
@@ -227,10 +228,6 @@ select {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 0.6875rem;
